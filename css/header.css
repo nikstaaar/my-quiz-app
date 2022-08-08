@@ -1,8 +1,12 @@
 .header{
-    background-color: brown;
-    width: 100%;
+    margin-bottom: 0;
+    position: fixed;
+    z-index: 20;
     display: flex;
     justify-content: center;
+    background-color: brown;
+    width: 100%;
+    padding: 1em;
 }
 .header__headline {
     background-color: aqua;

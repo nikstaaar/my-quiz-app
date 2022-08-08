@@ -1,7 +1,18 @@
 .footer{
-    background-color: blueviolet;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    background-color: blueviolet;
+    padding: 0.5em;
+    bottom:0;
+
+
+}
+
+.footer__nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: red;
 }
