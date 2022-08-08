@@ -8,13 +8,14 @@
     grid-template-columns: 10% 1fr 1fr 10%;
     grid-template-rows: repeat(8,1fr);
     row-gap: 6%;
-    background-color: antiquewhite;
 }
 .main__card {
     padding: 10%;
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    gap: 3em;
     background-color: aqua;
     border-width: 10%;
 }
@@ -44,22 +45,28 @@
 }
 
 .main__card__title {
-    font-size: larger;
-    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 200;
     background-color: aqua;
 }
 
 .main__card__answer {
- position: absolute;
- top: 10em;
- left: 8em;
+    position: relative;
+    align-self: center;
+    font-size: medium;
+    background: transparent;
+    bottom: 1.5em;
+    padding: 1em;
+
 }
 
 .main__card__tags-bar {
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 2%;
+    padding: 0.3em;
     background-color: blue;
 }
 
