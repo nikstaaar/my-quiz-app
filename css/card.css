@@ -1,0 +1,67 @@
+.card {
+    padding: 10%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 3em;
+    background-color: aqua;
+    border-width: 10%;
+}
+.card--grid-1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 1 / 3;
+
+}
+
+.card--grid-2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 3 / 5;
+}
+
+.card--grid-3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 5 / 7;
+}
+
+.card--grid-4 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 7 / 9;
+}
+
+.card__title {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 200;
+    background-color: aqua;
+}
+
+.card__answer {
+    position: relative;
+    align-self: center;
+    font-size: medium;
+    background: transparent;
+    bottom: 1.5em;
+    padding: 1em;
+
+}
+
+.card__tags-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0.3em;
+}
+
+.card__bookmark {
+    position: absolute;
+    background-color: transparent;
+    border-style: none;
+    top:-0.5em;
+    right:0.8em;
+}
