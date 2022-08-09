@@ -6,7 +6,7 @@
     justify-content: space-around;
     gap: 3em;
     background-color: aqua;
-    border-width: 10%;
+    border-radius: 1em;
 }
 .card--grid-1 {
     grid-column-start: 2;
