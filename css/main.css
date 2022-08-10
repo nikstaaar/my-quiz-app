@@ -1,0 +1,13 @@
+@import "./card.css";
+
+.main {
+    position: relative;
+    top: 6em;
+    padding-bottom: 5em;
+    z-index: 10;
+    height: 80em;
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 10%;
+    grid-template-rows: repeat(8,1fr);
+    row-gap: 6%;
+}

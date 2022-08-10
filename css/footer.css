@@ -1,0 +1,16 @@
+.footer{
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    display: flex;
+    background-color: blueviolet;
+    padding: 0.5em;
+    bottom:0;
+}
+
+.footer__nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: red;
+}
